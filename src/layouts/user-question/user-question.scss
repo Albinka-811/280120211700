@@ -1,0 +1,32 @@
+.user-question {
+    margin-top: 22px;
+    padding: 28px 21px;
+    background-color: #f2f2f2;
+
+    &-form {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+
+        &__message {
+            width: 100%;
+            min-height: 63px;
+            padding: 6px;
+            background: #fff;
+            border: 1px solid #000;
+            border-radius: 1px;
+        }
+
+        &__button {
+            margin-top: 23px;
+            font-family: PT, sans-serif;
+            font-size: 16px;
+            padding: 13px 48px 11px 43px;
+            font-weight: 700;
+            max-height: 43px;
+            border-radius: 23px;
+            border: none;
+            background: #fdd639;
+        }
+    }
+}
