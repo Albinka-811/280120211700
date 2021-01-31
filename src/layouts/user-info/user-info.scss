@@ -1,0 +1,60 @@
+.user {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    &-avatar {
+        max-width: 124px;
+        max-height: 124px;
+        flex: 0 0 124px;
+
+        &__photo {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    &-info {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+
+        &__name {
+            font-family: $font-Arial;
+            font-size: 16px;
+            font-weight: 700;
+            color: $black;
+            line-height: 20px;
+            margin: 7px 0 0 10px;
+        }
+
+        &__speciality {
+            font-family: $font-Arial;
+            font-size: 12px;
+            font-weight: 400;
+            color: #808080;
+            line-height: 20px;
+            margin: 2px 0 0 10px;
+        }
+
+        &__message {
+            font-family: $font-Arial;
+            font-size: 14px;
+            font-weight: 400;
+            color: $black;
+            border: 1px solid #dadada;
+            border-radius: 5px;
+            line-height: 20px;
+            margin-top: 5px;
+            background: #fffbc8;
+            margin-left: -45px;
+            z-index: -1;
+            word-wrap: break-word;
+            padding: 10px 10px 10px 55px;
+        }
+    }
+}
