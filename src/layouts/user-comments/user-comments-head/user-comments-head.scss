@@ -1,0 +1,71 @@
+.user-reviews {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+
+    @media (min-width: $xsmall) {
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-title {
+        font-family: $font-Arial;
+        font-size: 16px;
+        font-weight: 700;
+        color: $black;
+
+        &__link {
+            display: inline-block;
+            color: #005da1;
+            font-family: $font-Arial;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &-counters {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 10px 0;
+
+        @media (min-width: $xsmall) {
+            margin: 0;
+        }
+
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:first-child {
+                margin-right: 16px;
+            }
+        }
+    }
+
+    &__image {
+        font-family: $font-Arial;
+        font-size: 14px;
+        font-weight: 400;
+        color: #005da1;
+        margin-right: 6px;
+    }
+
+    &__like {
+        font-family: $font-Arial;
+        font-size: 12px;
+        font-weight: 400;
+        color: $black;
+    }
+
+    &__comment {
+        font-family: $font-Arial;
+        font-size: 12px;
+        font-weight: 400;
+        color: $black;
+    }
+}
