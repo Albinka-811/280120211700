@@ -1,4 +1,4 @@
-# antagosoft-test
+# test
 
 ## Project setup
 ```
